@@ -9,7 +9,6 @@ const typeDefs = gql`
 	type Carro {
 		id: ID!
 		marca: String!
-		modelo: String!
 		numeroDePortas: Int!
 	}
 
@@ -22,17 +21,15 @@ const typeDefs = gql`
 
 	type Caminhao {
 		id: ID!
-		marca: String!
-		modelo: String!
 		capacidadeDeCarga: Float!
 	}
 
 	type Onibus {
-    id: ID!
-    marca: String!
-    modelo: String!
-    quantidadeAssentos: Int!
-  }
+    	id: ID!
+    	marca: String!
+    	modelo: String!
+    	quantidadeAssentos: Int!
+  	}
 
 	type Query {
 		veiculos: [Veiculo!]!

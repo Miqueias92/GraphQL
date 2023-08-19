@@ -19,6 +19,7 @@ class VeiculoService {
       marca: "Honda",
       modelo: "Titan",
       cilindradas: 150,
+      type: "Dinamico",
       __typename: 'Moto' 
     }
 
